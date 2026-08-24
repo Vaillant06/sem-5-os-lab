@@ -1,0 +1,33 @@
+
+
+
+DIR *opendir(const char *name);
+DIR *fdopendir(int fd);
+
+U G O 
+
+ps -el | grep Z
+sleep
+wait(&wstatus)
+****setpriority (nice)
+
+
+libc
+libm
+libpthred
+readelf -S ----
+bss in a process - block started by symbol
+page - memory management technique
+ELF
+address space layout randomization
+
+ls -l
+pwd
+who
+cat filename
+cal
+date
+cp filename1 filename2
+rm filename
+ps -el
+sort ______
