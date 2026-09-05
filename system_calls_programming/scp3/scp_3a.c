@@ -37,8 +37,8 @@ int main() {
     } else {
         // Parent Process
         // char msg[] = "Linux System calls";
-        char msg[] = "Sreenath";
-        int fd = open("output.txt", O_WRONLY | O_CREAT | O_TRUNC, 644);
+        char msg[] = "Sreenath\n";
+        int fd = open("output.txt", O_WRONLY | O_CREAT | O_TRUNC, 0644);
 
         printf("%d\n", fd);
 
