@@ -15,6 +15,8 @@ void *philosopher(void *arg)
     printf("Philosopher %d is thinking\n", id);
     sleep(1);
 
+    printf("Philosopher %d is hungry\n", id);
+
     // Pick up left fork
     sem_wait(&forks[id]);
 
